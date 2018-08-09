@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/etSQLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotness scale 1 to 10" />
+    <EditText
+        android:id="@+id/etSQLHotness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age" />
+
+    <Button
+        android:id="@+id/bSQLUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update SQLite Database" />
+
+    <Button
+        android:id="@+id/bSQLOpenView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Row ID"/>
+    <EditText
+        android:id="@+id/etSQLRowInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <requestFocus/>
+    </EditText>
+
+    <Button
+        android:id="@+id/bGetInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Information" />
+
+    <Button
+        android:id="@+id/bSQLModify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Entry" />
+
+    <Button
+        android:id="@+id/bSQLDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Entry" />
+</LinearLayout>
