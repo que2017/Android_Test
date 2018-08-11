@@ -10,6 +10,8 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.SlidingDrawer;
 
+import com.example.zhang.test.R;
+
 public class Slider extends Activity implements View.OnClickListener, CompoundButton.OnCheckedChangeListener, SlidingDrawer.OnDrawerOpenListener {
     Button handle1, handle2 ,handle3, handle4;
     CheckBox cb;

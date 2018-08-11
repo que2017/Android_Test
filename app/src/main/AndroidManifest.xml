@@ -12,42 +12,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash">
+        <activity android:name="com.example.zhang.test.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.zhang.test.MainActivity">
             <intent-filter>
                 <action android:name="com.example.zhang.test.MAINACTIVITY" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu">
+        <activity android:name="com.example.zhang.test.Menu">
             <intent-filter>
                 <action android:name="com.example.zhang.test.MENU" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".TextPlay">
+        <activity android:name="com.example.zhang.test.TextPlay">
         </activity>
-        <activity android:name=".Email">
+        <activity android:name="com.example.zhang.test.Email">
         </activity>
         <activity
-            android:name=".Camera"
+            android:name="com.example.zhang.test.Camera"
             android:label="Camera and Wallpaper"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".Data">
+        <activity android:name="com.example.zhang.test.Data">
         </activity>
-        <activity android:name=".OpenedClass">
+        <activity android:name="com.example.zhang.test.OpenedClass">
         </activity>
         <activity
-            android:name=".AboutUs"
+            android:name="com.example.zhang.test.AboutUs"
             android:theme="@android:style/Theme.Dialog">
             <intent-filter>
                 <action android:name="com.example.zhang.test.ABOUT" />
@@ -56,7 +56,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Prefs"
+            android:name="com.example.zhang.test.Prefs"
             android:theme="@android:style/Theme.Dialog">
             <intent-filter>
                 <action android:name="com.example.zhang.test.PREFS" />
@@ -64,29 +64,29 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".GFX">
+        <activity android:name="com.example.zhang.test.GFX">
         </activity>
-        <activity android:name=".GFXSurface">
+        <activity android:name="com.example.zhang.test.GFXSurface">
         </activity>
-        <activity android:name=".SoundStuff">
+        <activity android:name="com.example.zhang.test.SoundStuff">
         </activity>
-        <activity android:name=".Slider">
+        <activity android:name="com.example.zhang.test.Slider">
         </activity>
-        <activity android:name=".Tabs">
+        <activity android:name="com.example.zhang.test.Tabs">
         </activity>
-        <activity android:name=".SimpleBrowser">
+        <activity android:name="com.example.zhang.test.SimpleBrowser">
         </activity>
-        <activity android:name=".Flipper">
+        <activity android:name="com.example.zhang.test.Flipper">
         </activity>
-        <activity android:name=".SharedPrefs">
+        <activity android:name="com.example.zhang.test.SharedPrefs">
         </activity>
-        <activity android:name=".InternalData">
+        <activity android:name="com.example.zhang.test.InternalData">
         </activity>
-        <activity android:name=".ExternalData">
+        <activity android:name="com.example.zhang.test.ExternalData">
         </activity>
-        <activity android:name=".SQLiteExample">
+        <activity android:name="com.example.zhang.test.SQLiteExample">
         </activity>
-        <activity android:name=".SQLView">
+        <activity android:name="com.example.zhang.test.SQLView">
             <intent-filter>
                 <action android:name="com.example.zhang.test.SQLVIEW" />
 

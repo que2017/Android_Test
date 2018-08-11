@@ -9,6 +9,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.zhang.test.R;
+
 public class Email extends Activity implements OnClickListener{
     EditText personEmail, intro, personName, stupidThings, hatefulAction, outro;
     String emailAdd, beginning, name, stupidAction, hatefulAct, out;

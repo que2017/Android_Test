@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
+import com.example.zhang.test.R;
+
 import java.io.IOException;
 import java.io.InputStream;
 

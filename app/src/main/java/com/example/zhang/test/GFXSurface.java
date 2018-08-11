@@ -12,6 +12,8 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 
+import com.example.zhang.test.R;
+
 public class GFXSurface extends Activity implements View.OnTouchListener{
     Things01Surface mySurfaceView;
     float x, y, sX, sY, fX, fY, dX, dY, aniX, aniY, scaledX, scaledY;

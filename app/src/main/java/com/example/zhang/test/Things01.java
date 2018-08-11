@@ -10,6 +10,8 @@ import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.view.View;
 
+import com.example.zhang.test.R;
+
 public class Things01 extends View {
     Bitmap gBall;
     float y;

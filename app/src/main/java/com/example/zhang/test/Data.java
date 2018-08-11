@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.zhang.test.R;
+
 public class Data extends Activity implements View.OnClickListener {
     Button start, startFor;
     EditText sendET;

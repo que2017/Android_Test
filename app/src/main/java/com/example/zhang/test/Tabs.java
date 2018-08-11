@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.TabHost;
 import android.widget.TextView;
 
+import com.example.zhang.test.R;
+
 public class Tabs extends Activity implements View.OnClickListener {
     TabHost th;
     long start, stop;

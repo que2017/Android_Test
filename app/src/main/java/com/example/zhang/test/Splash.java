@@ -6,6 +6,8 @@ import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+
+import com.example.zhang.test.R;
 //import android.support.annotation.Nullable;
 
 public class Splash extends Activity {

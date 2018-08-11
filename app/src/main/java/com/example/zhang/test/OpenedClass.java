@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import com.example.zhang.test.R;
+
 public class OpenedClass extends Activity implements View.OnClickListener, RadioGroup.OnCheckedChangeListener {
     TextView question, test;
     Button returnData;

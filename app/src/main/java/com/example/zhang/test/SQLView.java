@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.TextView;
 
+import com.example.zhang.test.R;
+
 public class SQLView extends Activity {
     TextView tv;
 

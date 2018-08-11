@@ -12,6 +12,8 @@ import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.zhang.test.R;
+
 public class Menu extends ListActivity {
     String[] classes = {"MainActivity", "TextPlay", "Email",
             "Camera", "Data", "GFX", "GFXSurface", "SoundStuff",

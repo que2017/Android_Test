@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 
+import com.example.zhang.test.R;
+
 public class SoundStuff extends Activity implements View.OnClickListener, View.OnLongClickListener{
     SoundPool sp;
     int explosion = 0;

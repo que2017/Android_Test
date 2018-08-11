@@ -13,6 +13,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
+import com.example.zhang.test.R;
+
 import java.util.Random;
 
 public class TextPlay extends Activity implements OnClickListener{

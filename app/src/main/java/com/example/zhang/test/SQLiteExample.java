@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.zhang.test.R;
+
 public class SQLiteExample extends Activity implements View.OnClickListener {
     Button sqlUpdate, sqlView, sqlModify, sqlGetInfo, sqlDelete;
     EditText sqlName, sqlHotness, sqlRow;

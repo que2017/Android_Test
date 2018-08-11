@@ -6,6 +6,8 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.ViewFlipper;
 
+import com.example.zhang.test.R;
+
 public class Flipper extends Activity implements View.OnClickListener {
     ViewFlipper vfp;
 

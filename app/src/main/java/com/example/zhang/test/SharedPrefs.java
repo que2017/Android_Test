@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.zhang.test.R;
+
 public class SharedPrefs extends Activity implements View.OnClickListener {
     EditText sharedData;
     TextView dataResults;

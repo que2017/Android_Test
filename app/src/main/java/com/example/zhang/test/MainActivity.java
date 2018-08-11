@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.zhang.test.R;
+
 public class MainActivity extends AppCompatActivity {
     int count;
     Button add, sub;
