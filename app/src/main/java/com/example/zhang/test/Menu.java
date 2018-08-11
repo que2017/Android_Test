@@ -19,6 +19,7 @@ public class Menu extends ListActivity {
             "Camera", "Data", "GFX", "GFXSurface", "SoundStuff",
             "Slider", "Tabs", "SimpleBrowser", "Flipper", "SharedPrefs",
             "InternalData", "ExternalData", "SQLiteExample"};
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,7 +39,7 @@ public class Menu extends ListActivity {
             Class myClass = Class.forName("com.example.zhang.test." + cheese);
             Intent myIntent = new Intent(Menu.this, myClass);
             startActivity(myIntent);
-        }catch(ClassNotFoundException e){
+        } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
     }
@@ -46,7 +47,7 @@ public class Menu extends ListActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         super.onOptionsItemSelected(item);
-        switch(item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.aboutus:
                 Intent i = new Intent("com.example.zhang.test.ABOUT");
                 startActivity(i);
@@ -63,7 +64,7 @@ public class Menu extends ListActivity {
     }
 
     @Override
-        public boolean onCreateOptionsMenu(android.view.Menu menu) {
+    public boolean onCreateOptionsMenu(android.view.Menu menu) {
         super.onCreateOptionsMenu(menu);
         MenuInflater blowUp = getMenuInflater();
         blowUp.inflate(R.menu.cool_menu, menu);
